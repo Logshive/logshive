@@ -476,7 +476,7 @@ export default function Layout({ children, openFaq, toggleFaq }) {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <span className="logo-text">SocialSwap</span>
+              <span className="logo-text">Logshive</span>
             </div>
 
             <ul className="nav-links">
@@ -589,7 +589,7 @@ export default function Layout({ children, openFaq, toggleFaq }) {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <span className="logo-text">SocialSwap</span>
+                <span className="logo-text">Logshive</span>
               </div>
               <p className="footer-brand-desc">
                 The leading marketplace for creators to safely trade accounts and grow their digital influence.
@@ -628,7 +628,7 @@ export default function Layout({ children, openFaq, toggleFaq }) {
           </div>
 
           <div className="footer-bottom">
-            <span className="footer-copy">© 2026 SocialSwap. All rights reserved.</span>
+            <span className="footer-copy">© 2026 Logshive. All rights reserved.</span>
             <div className="footer-legal">
               <a href="#">Privacy Policy</a>
               <a href="#">Terms of Service</a>
