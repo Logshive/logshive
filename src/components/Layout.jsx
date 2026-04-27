@@ -492,13 +492,13 @@ export default function Layout({ children, openFaq, toggleFaq }) {
             <div className="nav-actions">
               <button 
                 className="nav-login"
-                onClick={() => window.location.href = 'https://logshiveuser.vercel.app/auth'}
+                onClick={() => window.location.href = 'https://user.logshive.com/auth'}
               >
                 Log in
               </button>
               <button 
                 className="nav-cta"
-                onClick={() => window.location.href = 'https://logshiveuser.vercel.app/auth'}
+                onClick={() => window.location.href = 'https://user.logshive.com/auth'}
               >
                 Get Started
               </button>

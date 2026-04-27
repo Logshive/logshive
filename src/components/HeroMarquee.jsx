@@ -520,13 +520,13 @@ export default function HeroMarquee() {
             <div className="hero-cta" style={{ display: "flex", justifyContent: "center", gap: 12, flexWrap: "wrap" }}>
               <button 
                 className="btn-primary"
-                onClick={() => window.location.href = 'https://logshiveuser.vercel.app/auth'}
+                onClick={() => window.location.href = 'https://user.logshive.com/auth'}
               >
                 Start Selling →
               </button>
               <button 
                 className="btn-secondary"
-                onClick={() => window.location.href = 'https://logshiveuser.vercel.app/auth'}
+                onClick={() => window.location.href = 'https://user.logshive.com/auth'}
               >
                 Explore Boosting
               </button>
