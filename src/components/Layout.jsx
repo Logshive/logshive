@@ -1,5 +1,7 @@
 import React from "react";
 
+import logoPng from "../assets/logshive.png";
+
 const navLinks = ["Buy Account", "Boost", "How it works", "Pricing"];
 
 const testimonials = [
@@ -471,12 +473,8 @@ export default function Layout({ children, openFaq, toggleFaq }) {
         <nav className="nav">
           <div className="nav-inner">
             <div className="logo">
-              <div className="logo-icon">
-                <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#0a0800" strokeWidth={2.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <span className="logo-text">Logshive</span>
+             <img src={logoPng} alt="Logshive Logo" style={{ height: 30 }} />
+             
             </div>
 
             <ul className="nav-links">
@@ -500,7 +498,7 @@ export default function Layout({ children, openFaq, toggleFaq }) {
                 className="nav-cta"
                 onClick={() => window.location.href = 'https://user.logshive.com/auth'}
               >
-                Get Started
+                Browse
               </button>
             </div>
           </div>
@@ -583,13 +581,8 @@ export default function Layout({ children, openFaq, toggleFaq }) {
         <footer className="footer">
           <div className="footer-grid">
             <div>
-              <div className="logo" style={{ marginBottom: 0 }}>
-                <div className="logo-icon">
-                  <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#0a0800" strokeWidth={2.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <span className="logo-text">Logshive</span>
+              <div className="logo">
+                <img src={logoPng} alt="Logshive Logo" style={{ height: 30 }} />
               </div>
               <p className="footer-brand-desc">
                 The leading marketplace for creators to safely trade accounts and grow their digital influence.

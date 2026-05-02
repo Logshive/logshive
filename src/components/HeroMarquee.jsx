@@ -12,10 +12,10 @@ const platforms = [
 ];
 
 const stats = [
-  { value: "$48M+", label: "Total Volume Traded" },
+  { value: "$48M+", label: "Orders Completed" },
   { value: "124K", label: "Active Creators" },
-  { value: "99.8%", label: "Escrow Success Rate" },
-  { value: "4.9★", label: "Avg. Seller Rating" },
+  { value: "99.8%", label: "Delivery Success Rate" },
+  { value: "4.9★", label: "Avg. Customer Rating" },
 ];
 
 const floatingCards = [
@@ -25,8 +25,8 @@ const floatingCards = [
     icon: "◈",
     platform: "Instagram",
     detail: "287K followers · Fashion niche",
-    amount: "+$12,400",
-    tag: "SOLD",
+    
+    tag: "AVAILABLE",
     tagColor: "#22c55e",
     style: { top: "8%", left: "-5%" },
   },
@@ -513,7 +513,7 @@ export default function HeroMarquee() {
                 fontWeight: 400,
               }}
             >
-              The AI-powered marketplace for buying, selling & growing social media assets — with secure escrow, smart analytics, and verified sellers.
+              The go-to marketplace for buying social media accounts, boosting followers, and getting verified numbers — fast and secure.
             </p>
 
             {/* CTAs */}
@@ -522,7 +522,7 @@ export default function HeroMarquee() {
                 className="btn-primary"
                 onClick={() => window.location.href = 'https://user.logshive.com/auth'}
               >
-                Start Selling →
+                Browse →
               </button>
               <button 
                 className="btn-secondary"
@@ -613,7 +613,7 @@ export default function HeroMarquee() {
                 >
                   <span className="live-dot" />
                   <span style={{ fontSize: 12, color: "rgba(255,255,255,0.6)", fontWeight: 500 }}>
-                    Live marketplace · 2,847 listings active now
+                    Live marketplace · 2,847 accounts available now
                   </span>
                 </div>
 

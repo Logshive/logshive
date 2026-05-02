@@ -10,8 +10,8 @@ const features = [
       </svg>
     ),
     tag: "Security",
-    title: "Bank-Grade Escrow",
-    desc: "Never worry about scams again. Funds are held securely until account details and ownership are verified by both parties. Safe, transparent, and instantly released.",
+    title: "Secure Checkout",
+    desc: "Never worry about getting scammed. Every order is protected and your account details are delivered instantly after payment.",
     accent: "#C9A84C",
   },
   {
@@ -37,15 +37,15 @@ const features = [
     ),
     tag: "Reach",
     title: "Global Network",
-    desc: "Connect with buyers and sellers from over 150 countries instantly.",
+    desc: "Shop accounts from over 150 countries instantly.",
     accent: "#C9A84C",
   },
 ];
 
 const steps = [
-  { num: "01", title: "Create Listing", desc: "Connect your account securely. We analyze your metrics and suggest a fair market value in seconds." },
-  { num: "02", title: "Secure Escrow", desc: "A buyer purchases your account. Funds are locked in our vault while ownership transfer happens." },
-  { num: "03", title: "Instant Payout", desc: "Once the buyer confirms access, funds are released immediately — zero hidden fees, ever." },
+  { num: "01", title: "Pick Your Service", desc: "Browse social media accounts by platform and niche, select a follower boost package, or grab a verified number — all in one place." },
+  { num: "02", title: "Secure Checkout", desc: "Pay safely through our protected checkout. Every transaction is encrypted and your order is confirmed instantly with no delays." },
+  { num: "03", title: "Instant Delivery", desc: "Receive your account login details, follower boost, or verification number immediately after payment. No waiting, no back and forth — just results." },
 ];
 
 const plans = [
@@ -386,9 +386,9 @@ export default function FeaturesPricing({ counts, statsRef }) {
         <section id="sell" className="fp-section" style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={{ textAlign: "center", maxWidth: 560, margin: "0 auto" }}>
             <p className="fp-label">Platform Capabilities</p>
-            <h2 className="fp-section-title">Powerful tools for<br /><em style={{ fontStyle: "italic", color: "#C9A84C" }}>every digital asset</em></h2>
+            <h2 className="fp-section-title">Everything you need for<br /><em style={{ fontStyle: "italic", color: "#C9A84C" }}>every social move</em></h2>
             <p className="fp-section-sub" style={{ margin: "0 auto" }}>
-              Everything you need to securely trade accounts and multiply followers in one unified platform.
+              Everything you need to buy accounts, boost followers, and get verified numbers — all in one place.
             </p>
           </div>
 
@@ -431,9 +431,9 @@ export default function FeaturesPricing({ counts, statsRef }) {
               <div style={{ display: "flex", flexWrap: "wrap", gap: 36, alignItems: "center", position: "relative", zIndex: 1 }}>
                 <div style={{ flex: 1, minWidth: 220 }}>
                   <p className="bento-tag" style={{ color: "#C9A84C" }}>Sellers Toolkit</p>
-                  <h3 className="bento-title">Get Paid Instantly</h3>
+                  <h3 className="bento-title">Get a Number</h3>
                   <p className="bento-desc">
-                    List your unused accounts in 60 seconds. Our pricing engine suggests the perfect value — paid out in Crypto, PayPal, or Bank Transfer.
+                     Need a number for verification? Get real phone numbers instantly for any platform — fast, private, and hassle-free.
                   </p>
                 </div>
                 <div className="pricing-mini">
@@ -454,7 +454,7 @@ export default function FeaturesPricing({ counts, statsRef }) {
           <div className="stats-grid">
             {[
               { label: "Active Users", value: counts.customers, suffix: "+" },
-              { label: "Accounts Traded", value: counts.accounts, suffix: "+" },
+              { label: "Accounts Sold", value: counts.accounts, suffix: "+" },
               { label: "Satisfaction Rate", value: counts.satisfaction, suffix: "%" },
               { label: "Uptime", value: "99.9", suffix: "%" },
             ].map((s, i) => (
@@ -489,7 +489,7 @@ export default function FeaturesPricing({ counts, statsRef }) {
         </section>
 
         {/* ── PRICING ───────────────────────── */}
-        <section id="pricing" className="fp-section" style={{ maxWidth: 1200, margin: "0 auto" }}>
+        {/* <section id="pricing" className="fp-section" style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={{ textAlign: "center", maxWidth: 480, margin: "0 auto" }}>
             <p className="fp-label">Boost Packages</p>
             <h2 className="fp-section-title">Accelerate<br /><em style={{ fontStyle: "italic", color: "#C9A84C" }}>your growth</em></h2>
@@ -518,7 +518,7 @@ export default function FeaturesPricing({ counts, statsRef }) {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );
